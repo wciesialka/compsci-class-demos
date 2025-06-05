@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>loadstring-js demonstration</title>
+        <script src="../js/loadstring.js"></script>
+    </head>
+    <body>
+        <button style="min-width: max-content; min-height: max-content;" id="run-button">
+            Click this button to run arbitrary code.
+        </button>
+        <br>
+        <p style="font-style: italic; max-width: 80ch; text-wrap: pretty;">
+            Note: this is a huge security risk, and should not be used on a
+            production website. It should be safe for personal use, but know
+            the risks! A bad actor could use this to gain information about
+            you or your computer system.
+
+            For security reasons, many modern browsers do not typically allow 
+            access across domains. This means that both the web page and the
+            file it tries to load, must be located on the same server.
+        </p>
+        <br>
+        <div id="payload-target" style="width: fit-content; aspect-ratio : 1 / 1; border: 1px solid black; padding: 1ch">
+            Watch the magic happen...
+        </div>
+    </body>
+</html>
