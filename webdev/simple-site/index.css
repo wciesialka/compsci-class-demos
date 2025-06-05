@@ -1,0 +1,35 @@
+* {
+    background-color: antiquewhite;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#intro {
+    text-align: center;
+}
+
+.content {
+    color: slategrey;
+    max-width: 80ch;
+}
+
+#colorbutton {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#buttondemo {
+    text-align: center;
+    margin: auto;
+    width: 20ch;
+    height: 10ch;
+}
+
+#buttoncontainer {
+    text-align: center;
+    width: 80ch;
+    height: 100%;
+}
